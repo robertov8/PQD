@@ -1,31 +1,31 @@
 {
-    "name": "willkerms/pqd",
-    "description": "PHP Quick Development",
-    "type": "library",
-    "license": "GPL-2.0-or-later",
-    "version": "1.1",
-    "authors": [
-        {
-            "name": "Willker Moraes Silva",
-            "email": "willkerms@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-          "PQD\\": "./"
-        },
-        "psr-0": {
-            "": ["./"]
-        },
-        "classmap": [
-            "./DB/",
-            "./DBF/",
-            "./LDAP/",
-            "./REPORT/",
-            "./SQL/",
-            "./VIEW/"
-        ]
+  "name": "robertov8/pqd",
+  "description": "PHP Quick Development",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "version": "1.1",
+  "authors": [
+    {
+      "name": "Willker Moraes Silva",
+      "email": "willkerms@gmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "PQD\\": "./"
+    },
+    "psr-0": {
+            "": ["./"]
+    },
+    "classmap": [
+      "./DB/",
+      "./DBF/",
+      "./LDAP/",
+      "./REPORT/",
+      "./SQL/",
+      "./VIEW/"
+    ]
+  }
 }
